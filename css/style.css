@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
 
 h1 {
 	text-align: center;
@@ -10,18 +12,12 @@ h2 {
 	margin-left: 5%;
 }
 
-h3 {
-	text-align: left;
-	font-size: medium;
-	margin-left: 5%;
-}
-
 p {
 	text-align: left;
 }
 
 .bagButton {
-	background:linear-gradient(to bottom, #02663f 5%, #01a263 100%);
+	background:#01a263;
 	border-radius:6px;
 	cursor:pointer;
 	color:#ffffff;
