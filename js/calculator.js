@@ -12,18 +12,54 @@ function calcFutureCost(principal, rate, frequency, years) {
 }
 
 const handbagCost = 2850
-const rate = .10
-const frequency = 4
-const years = 10
+const rate = .08
+const frequency = 1
+const years = 5
 
-const tenYearValue = calcFutureCost(
+const investmentA = calcFutureCost(
 	handbagCost,
 	rate,
 	frequency,
 	years
 )
 
-function addMessage() {
+const investmentB = calcFutureCost(
+	handbagCost,
+	rate,
+	frequency,
+	years * 2
+)
+
+const investmentC = calcFutureCost(
+	handbagCost,
+	rate,
+	frequency,
+	years * 5
+)
+
+const investmentD = calcFutureCost(
+	handbagCost,
+	rate,
+	frequency,
+	years * 10
+)
+
+function addMessageA() {
   var x = document.getElementById("answer");
-  x.innerHTML = "True Amount is " + formatCurrency(tenYearValue);
+  x.innerHTML = "True Amount is " + formatCurrency(investmentA);
+}
+
+function addMessageB() {
+  var x = document.getElementById("answerTen");
+  x.innerHTML = "True Amount is " + formatCurrency(investmentB);
+}
+
+function addMessageC() {
+  var x = document.getElementById("answerTwentyFive");
+  x.innerHTML = "True Amount is " + formatCurrency(investmentC);
+}
+
+function addMessageD() {
+  var x = document.getElementById("answerFifty");
+  x.innerHTML = "True Amount is " + formatCurrency(investmentD);
 }

@@ -1,22 +1,28 @@
+
 h1 {
 	text-align: center;
+	margin: 2%;
 }
 
-
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 500px;
+h2 {
+	text-align: left;
+	font-size: 1.5rem;
+	margin-left: 5%;
 }
 
-#bagButton {
-	box-shadow:inset 0px 1px 0px 0px #fbafe3;
-	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
-	background-color:#ff5bb0;
+h3 {
+	text-align: left;
+	font-size: medium;
+	margin-left: 5%;
+}
+
+p {
+	text-align: left;
+}
+
+.bagButton {
+	background:linear-gradient(to bottom, #02663f 5%, #01a263 100%);
 	border-radius:6px;
-	border:1px solid #ee1eb5;
-	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
@@ -24,14 +30,12 @@ img {
 	font-weight:bold;
 	padding:6px 50px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #c70067;
+	width: 100%;
+	margin-top: 3%;
 }
 
-#bagButton:hover {
+/*.bagButton:hover {
 	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
 	background-color:#ef027d;
 }
-#bagButton:active {
-	position:relative;
-	top:1px;
-}
+*/
