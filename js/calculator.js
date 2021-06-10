@@ -46,20 +46,20 @@ const investmentD = calcFutureCost(
 
 function addMessageA() {
   var x = document.getElementById("answer");
-  x.innerHTML = "True Amount is " + formatCurrency(investmentA);
+  x.innerHTML = "Potential Value: " + formatCurrency(investmentA);
 }
 
 function addMessageB() {
   var x = document.getElementById("answerTen");
-  x.innerHTML = "True Amount is " + formatCurrency(investmentB);
+  x.innerHTML = "Potential Value: " + formatCurrency(investmentB);
 }
 
 function addMessageC() {
   var x = document.getElementById("answerTwentyFive");
-  x.innerHTML = "True Amount is " + formatCurrency(investmentC);
+  x.innerHTML = "Potential Value: " + formatCurrency(investmentC);
 }
 
 function addMessageD() {
   var x = document.getElementById("answerFifty");
-  x.innerHTML = "True Amount is " + formatCurrency(investmentD);
+  x.innerHTML = "Potential Value: " + formatCurrency(investmentD);
 }

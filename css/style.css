@@ -3,35 +3,72 @@
 
 h1 {
 	text-align: center;
-	margin: 2%;
+	color: #ffffff;
+	margin-top: 2%;
 }
 
 h2 {
 	text-align: left;
 	font-size: 1.5rem;
-	margin-left: 5%;
+	margin: 2% 5% 2% 5%;
+	padding: 3%;
+	color: #ffffff;
+	background: rgba( 110, 238, 217, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.start{
+	margin: 5% 10% 5% 10%;
 }
 
 p {
 	text-align: left;
+	color: #1638D8;
 }
 
 .bagButton {
-	background:#01a263;
+	background: #1638D8;
 	border-radius:6px;
 	cursor:pointer;
-	color:#ffffff;
+	color:#fff;
 	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
+	font-size:16px;
+	font-weight: bold;
 	padding:6px 50px;
 	text-decoration:none;
 	width: 100%;
 	margin-top: 3%;
 }
 
-/*.bagButton:hover {
-	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
-	background-color:#ef027d;
+.bagButton:hover {
+	background: #08c5f9;
+	color: #ffffff;
 }
-*/
+
+
+li {
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+body {
+	background:#16d8a9;
+}
+
+footer {
+	color: #ffffff;
+	background: rgba( 110, 238, 217, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	margin-top: 5%;
+}
+
+footer p {
+	color: #ffffff;
+}
